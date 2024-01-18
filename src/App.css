@@ -1,38 +1,107 @@
-.App {
+.container{
+  display: grid;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.submit button{
+  width: 185px;
+    height: 35px;
+    background: black;
+    color: white;
+}
+
+.first-last {
+  display: flex;
+  
+}
+.releving-joining {
+  display: flex;
+  margin-top: 20px;
+}
+.contact-dob {
+  display: flex;
+  margin-top: 20px;
+}
+.upload-doc {
+  display: flex;
+  margin-top: 20px;
+}
+.permanent-address {
+  display: flex;
+  margin-top: 20px;
+}
+.first-last {
+  display: flex;
+}
+
+.form-wrapper{
+  text-align:  center;
+}
+
+.table-wrap{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 85%;
+  margin-left: 150px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.list-header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.add-btn {
+margin-top: 25px;
+}
+.add-btn button {
+background: green;
+color: #ffff;
+border-radius: 4px;
+width: 150px;
+height: 36px;
+}
+.edit-btn button {
+background: blue;
+color: #ffff;
+border-radius: 4px;
+width: 90px;
+height: 36px;
+}
+.delete-btn button {
+background: rgb(0, 255, 98);
+color: #ffff;
+border-radius: 4px;
+width: 90px;
+height: 36px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.topbar{
+  display: flex;
+    margin-left: 180px;
+}
+.topbar h2{
+  color: green;
+  margin-right: 30px;
+}
+.list-heading {
+  text-align: justify;
+  margin-left: 180px;
+}
+.list-heading h2{
+  color: green;
 }
